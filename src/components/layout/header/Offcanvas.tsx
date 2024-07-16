@@ -72,7 +72,15 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__header nav-fade">
             <div className="logo">
               <Link href="/">
-                <Image src={logo} alt="Image" title="Image" priority />
+                <Image
+                  src={logo}
+                  alt="Logo"
+                  title="Logo"
+                  priority
+                  width={100} // Adjust the width as needed
+                  height={100} // Adjust the height as needed
+                  style={{ maxWidth: "100px", height: "auto", width: "100%" }} // Ensure the image scales correctly
+                />
               </Link>
             </div>
             <button
@@ -287,8 +295,6 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     </li>
                   </ul>
                 </li> */}
-
-
               </ul>
             </div>
           </div>

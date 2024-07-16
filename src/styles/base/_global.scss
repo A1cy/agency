@@ -2,6 +2,13 @@
  --------- (2.03) global styles start ---------
  ==== */
 
+.navbar__logo img {
+  max-width: 75px; /* Adjust the max-width as needed */
+  height: auto;
+  width: 100%;
+}
+
+
 img {
   max-width: 100%;
   height: auto;

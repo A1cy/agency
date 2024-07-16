@@ -236,7 +236,17 @@ const FooterThree = () => {
                   <div className="col-12 col-lg-4">
                     <div className="text-center text-lg-end">
                       <Link href="/" className="logo">
-                        <Image src={logo} alt="Image" />
+                        <Image
+                          src={logo}
+                          alt="Logo"
+                          width={150} // Adjust the width as needed
+                          height={150} // Adjust the height as needed
+                          style={{
+                            maxWidth: "150px",
+                            height: "auto",
+                            width: "100%",
+                          }} // Ensure the image scales correctly
+                        />
                       </Link>
                     </div>
                   </div>

@@ -9,6 +9,12 @@ import two from "public/images/portfolio/two.png";
 import three from "public/images/portfolio/three.png";
 import four from "public/images/portfolio/four.png";
 import five from "public/images/portfolio/five.png";
+import proj1 from "public/images/projects/it-projects/1.jpg";
+import proj2 from "public/images/projects/it-projects/2.jpg";
+import proj3 from "public/images/projects/it-projects/3.jpg";
+import proj4 from "public/images/projects/it-projects/4.jpg";
+import proj5 from "public/images/projects/it-projects/5.jpg";
+import proj6 from "public/images/projects/it-projects/6.jpg";
 
 const HomeTwoPortfolio = () => {
   const [activeFilter, setActiveFilter] = useState("*");
@@ -16,6 +22,7 @@ const HomeTwoPortfolio = () => {
   const handleTabClick = (filter: any) => {
     setActiveFilter(filter);
   };
+
   return (
     <section className="section portfolio portfolio-two portfolio-filter fade-wrapper">
       <div className="portfolio__text-slider-w">
@@ -38,7 +45,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  IT portfolio
+                  IT Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -48,7 +55,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  Digital Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -58,7 +65,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  IT portfolio
+                  IT Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -68,7 +75,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  Digital Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -78,27 +85,7 @@ const HomeTwoPortfolio = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  IT portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
-                <Link href="portfolio">
-                  digital portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  IT portfolio
+                  IT Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -140,6 +127,7 @@ const HomeTwoPortfolio = () => {
           </div>
         </div>
         <div className="row masonry-grid">
+          {/* Digital Marketing Projects */}
           <div
             className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main digital-marketing ${
               activeFilter === ".digital-marketing" || activeFilter === "*"
@@ -148,36 +136,17 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single portfolio__single-active topy-tilt fade-top">
-              <Link href="portfolio">
-                <Image src={one} alt="Image" />
+              <Link href="https://www.example.com/social-media-campaign">
+                <Image src={one} alt="Social Media Campaign" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="https://www.example.com/social-media-campaign">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Social Media Campaign</Link>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main it-services ${
-              activeFilter === ".it-services" || activeFilter === "*"
-                ? ""
-                : "hidden"
-            }`}
-          >
-            <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
-                <Image src={two} alt="Image" />
-              </Link>
-              <div className="portfolio__single-content">
-                <Link href="portfolio">
-                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                </Link>
-                <h4>
-                  <Link href="portfolio">Website Development</Link>
+                  <Link href="https://www.example.com/social-media-campaign">
+                    Social Media Campaign
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -190,36 +159,17 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
-                <Image src={three} alt="Image" />
+              <Link href="https://www.example.com/seo-optimization">
+                <Image src={three} alt="SEO Optimization" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="https://www.example.com/seo-optimization">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">SEO Optimization</Link>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main it-services ${
-              activeFilter === ".it-services" || activeFilter === "*"
-                ? ""
-                : "hidden"
-            }`}
-          >
-            <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
-                <Image src={four} alt="Image" />
-              </Link>
-              <div className="portfolio__single-content">
-                <Link href="portfolio">
-                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                </Link>
-                <h4>
-                  <Link href="portfolio">Mobile App Development</Link>
+                  <Link href="https://www.example.com/seo-optimization">
+                    SEO Optimization
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -232,15 +182,42 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
-                <Image src={five} alt="Image" />
+              <Link href="https://www.example.com/content-marketing">
+                <Image src={five} alt="Content Marketing" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="https://www.example.com/content-marketing">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Content Marketing</Link>
+                  <Link href="https://www.example.com/content-marketing">
+                    Content Marketing
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          {/* IT Services Projects */}
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main it-services ${
+              activeFilter === ".it-services" || activeFilter === "*"
+                ? ""
+                : "hidden"
+            }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="https://ai.mhg-int.com">
+                <Image src={proj1} alt="Advanced AI Application" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="https://ai.mhg-int.com">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="https://ai.mhg-int.com">
+                    Advanced AI Application
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -253,15 +230,103 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="portfolio">
-                <Image src={one} alt="Image" />
+              <Link href="https://build-station.com">
+                <Image src={proj2} alt="Build Station" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="https://build-station.com">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Custom Software Development</Link>
+                  <Link href="https://build-station.com">Build Station</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main it-services ${
+              activeFilter === ".it-services" || activeFilter === "*"
+                ? ""
+                : "hidden"
+            }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="https://illuslighting.com">
+                <Image src={proj3} alt="Illus Lighting" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="https://illuslighting.com">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="https://illuslighting.com">Illus Lighting</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main it-services ${
+              activeFilter === ".it-services" || activeFilter === "*"
+                ? ""
+                : "hidden"
+            }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="https://cc-f.vercel.app">
+                <Image src={proj4} alt="Customer Care Evaluation" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="https://cc-f.vercel.app">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="https://cc-f.vercel.app">
+                    Customer Care Evaluation
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main it-services ${
+              activeFilter === ".it-services" || activeFilter === "*"
+                ? ""
+                : "hidden"
+            }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="https://savvy.a1xai.com/">
+                <Image src={proj5} alt="Savvy AI SaaS Platform" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="https://savvy.a1xai.com/">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="https://savvy.a1xai.com/">
+                    Savvy AI SaaS Platform
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main it-services ${
+              activeFilter === ".it-services" || activeFilter === "*"
+                ? ""
+                : "hidden"
+            }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="https://hatchsanitary.com">
+                <Image src={proj6} alt="Hatch Sanitary" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="https://hatchsanitary.com">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="https://hatchsanitary.com">Hatch Sanitary</Link>
                 </h4>
               </div>
             </div>

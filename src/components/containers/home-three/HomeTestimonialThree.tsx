@@ -4,9 +4,9 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import sthumb from "public/images/testimonial/s-thumb.png";
-import sthumbtwo from "public/images/testimonial/s-thumb-two.png";
-import sthumbthree from "public/images/testimonial/s-thumb-three.png";
+import sthumb from "public/images/testimonial/testi.jpg";
+import sthumbtwo from "public/images/testimonial/testi.jpg";
+import sthumbthree from "public/images/testimonial/testi.jpg";
 
 const HomeTestimonialThree = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);
@@ -85,7 +85,7 @@ const HomeTestimonialThree = () => {
                 <SwiperSlide>
                   <div className="testimonial-s__slider-single">
                     <div className="row gaper align-items-center">
-                      <div className="col-12 col-lg-4 col-xxl-4">
+                      {/* <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const HomeTestimonialThree = () => {
                             />
                           </svg>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1">
                         <div className="testimonial-s__content">
                           <div className="quote">
@@ -127,7 +127,7 @@ const HomeTestimonialThree = () => {
                 <SwiperSlide>
                   <div className="testimonial-s__slider-single">
                     <div className="row gaper align-items-center">
-                      <div className="col-12 col-lg-4 col-xxl-4">
+                      {/* <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ const HomeTestimonialThree = () => {
                             />
                           </svg>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1">
                         <div className="testimonial-s__content">
                           <div className="quote">
@@ -168,7 +168,7 @@ const HomeTestimonialThree = () => {
                 <SwiperSlide>
                   <div className="testimonial-s__slider-single">
                     <div className="row gaper align-items-center">
-                      <div className="col-12 col-lg-4 col-xxl-4">
+                      {/* <div className="col-12 col-lg-4 col-xxl-4">
                         <div className="thumb">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +184,7 @@ const HomeTestimonialThree = () => {
                             />
                           </svg>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1">
                         <div className="testimonial-s__content">
                           <div className="quote">

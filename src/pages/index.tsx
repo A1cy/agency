@@ -28,7 +28,7 @@ const HomeThree = () => {
       <WorkStepsLight />
       <HomeTestimonialThree />
       <HomeThreeSponsor />
-      <HomeThreeBlogLight />
+      {/* <HomeThreeBlogLight /> */}
       <CtaThree />
       <NextPageLight />
     </Layout>
