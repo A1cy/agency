@@ -76,18 +76,17 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu navbar__sub-menu--lg">
                           <li>
-                            <Link href="/">IT</Link>
+                            <Link href="it">IT</Link>
                           </li>
                           <li>
-                            <Link href="index-light">
+                            <Link href="digital-marketing">
                               Digital Marketing
                             </Link>
                           </li>
-                       
                         </ul>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="about-us">About Us</Link>
+                        <Link href="about-us">ABOUT US</Link>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
@@ -101,7 +100,9 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             <Link href="our-projects">IT Projects</Link>
                           </li>
                           <li>
-                            <Link href="project-single">Digital Marketing Projects</Link>
+                            <Link href="project-single">
+                              Digital Marketing Projects
+                            </Link>
                           </li>
                         </ul>
                       </li>

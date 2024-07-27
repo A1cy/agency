@@ -10,10 +10,10 @@ const UxProcessTwo = () => {
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
               <span className="sub-title">
-                UX Process
+                Our Process
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">working UX Process</h2>
+              <h2 className="title title-anim">Working Process</h2>
             </div>
           </div>
         </div>
@@ -23,19 +23,19 @@ const UxProcessTwo = () => {
               <div
                 className={
                   "service-f-single fade-top " +
-                  (imgTab == 0 ? " service-f-single-active" : " ")
+                  (imgTab === 0 ? " service-f-single-active" : "")
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>User Research</h4>
+                    <h4>Discovery & Strategy</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We begin by understanding your business needs, goals, and
+                    challenges. Through detailed discussions and analysis, we
+                    formulate a strategic plan tailored to your requirements.
                   </p>
                 </div>
                 <button
@@ -46,19 +46,20 @@ const UxProcessTwo = () => {
               <div
                 className={
                   "service-f-single fade-top " +
-                  (imgTab == 1 ? " service-f-single-active" : " ")
+                  (imgTab === 1 ? " service-f-single-active" : "")
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>story board</h4>
+                    <h4>Design & Prototyping</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Our design team creates wireframes and prototypes to
+                    visualize the solution. This stage involves iterative
+                    feedback and refinement to ensure alignment with your
+                    vision.
                   </p>
                 </div>
                 <button
@@ -69,19 +70,19 @@ const UxProcessTwo = () => {
               <div
                 className={
                   "service-f-single fade-top " +
-                  (imgTab == 2 ? " service-f-single-active" : " ")
+                  (imgTab === 2 ? " service-f-single-active" : "")
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>wireframing</h4>
+                    <h4>Development & Integration</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Our developers build the solution using the latest
+                    technologies and best practices. We integrate all necessary
+                    components to ensure seamless functionality and performance.
                   </p>
                 </div>
                 <button
@@ -92,19 +93,20 @@ const UxProcessTwo = () => {
               <div
                 className={
                   "service-f-single fade-top " +
-                  (imgTab == 3 ? " service-f-single-active" : " ")
+                  (imgTab === 3 ? " service-f-single-active" : "")
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Prototyping</h4>
+                    <h4>Testing & Quality Assurance</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We conduct thorough testing to identify and resolve any
+                    issues. Our quality assurance process ensures that the
+                    solution meets the highest standards of performance,
+                    security, and usability.
                   </p>
                 </div>
                 <button
@@ -115,19 +117,19 @@ const UxProcessTwo = () => {
               <div
                 className={
                   "service-f-single fade-top " +
-                  (imgTab == 4 ? " service-f-single-active" : " ")
+                  (imgTab === 4 ? " service-f-single-active" : "")
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>usability testing</h4>
+                    <h4>Deployment & Launch</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    After rigorous testing, we deploy the solution to your
+                    environment. We ensure a smooth transition and provide
+                    training and documentation to help your team get started.
                   </p>
                 </div>
                 <button
@@ -138,19 +140,20 @@ const UxProcessTwo = () => {
               <div
                 className={
                   "service-f-single fade-top " +
-                  (imgTab == 5 ? " service-f-single-active" : " ")
+                  (imgTab === 5 ? " service-f-single-active" : "")
                 }
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>UI Design</h4>
+                    <h4>Support & Maintenance</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Our work doesn't end at launch. We provide ongoing support
+                    and maintenance to ensure your solution continues to perform
+                    optimally. We address any issues and implement updates as
+                    needed.
                   </p>
                 </div>
                 <button

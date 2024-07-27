@@ -9,8 +9,11 @@ import CtaTwo from "@/components/containers/service-details/CtaTwo";
 
 const OurServices = () => {
   return (
-    <Layout header={2} footer={5} video={0}>
-      <CmnBanner title="Our Services" navigation="Our Services" />
+    <Layout header={5} footer={3} video={0}>
+      <CmnBanner
+        title="Digital Marketing Services"
+        navigation="Digital Marketing Services"
+      />
       <ServiceMain />
       <HomeTwoModal />
       <UxProcess />

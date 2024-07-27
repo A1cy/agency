@@ -3,6 +3,12 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
+import Image from "next/image";
+import one from "public/images/portfolio/one.png";
+import two from "public/images/portfolio/two.png";
+import three from "public/images/portfolio/three.png";
+import four from "public/images/portfolio/four.png";
+import five from "public/images/portfolio/five.png";
 
 const ServiceMain = () => {
   return (
@@ -50,20 +56,21 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Branding</Link>
+                          <Link href="service-single">
+                            Social Media Management
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
-                        <li>Customer Value</li>
+                        <li>Account Management</li>
+                        <li>Content Creation</li>
+                        <li>Community Engagement</li>
+                        <li>Analytics & Reporting</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
                           <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
+                           
                         </Link>
                       </div>
                     </div>
@@ -78,20 +85,21 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UX Design</Link>
+                          <Link href="service-single">
+                            Search Engine Optimization (SEO)
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
-                        <li>Information Architecture</li>
+                        <li>On-Page SEO</li>
+                        <li>Off-Page SEO</li>
+                        <li>Technical SEO</li>
+                        <li>SEO Audits</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
                           <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
+                           
                         </Link>
                       </div>
                     </div>
@@ -106,20 +114,21 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UI Design</Link>
+                          <Link href="service-single">
+                            Pay-Per-Click (PPC) Advertising
+                          </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Hi-Fidelity Wireframe</li>
-                        <li>Design System</li>
-                        <li>Final Presentation</li>
-                        <li>Final Delivery</li>
-                        <li>Post Delivery Support</li>
+                        <li>Google Ads</li>
+                        <li>Social Media Ads</li>
+                        <li>Display Advertising</li>
+                        <li>Campaign Optimization</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
                           <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
+                           
                         </Link>
                       </div>
                     </div>
@@ -134,132 +143,19 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Development</Link>
+                          <Link href="service-single">Content Marketing</Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Front End</li>
-                        <li>Backend</li>
-                        <li>Mobile App</li>
-                        <li>Post Delivery Support</li>
-                        <li>server development</li>
+                        <li>Blogging</li>
+                        <li>E-books and Whitepapers</li>
+                        <li>Infographics</li>
+                        <li>Video Marketing</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
                           <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="service-t-single-wrapper">
-                    <div className="service-t__slider-single">
-                      <div className="intro">
-                        <span className="sub-title">
-                          01
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </span>
-                        <h4>
-                          <Link href="service-single">Branding</Link>
-                        </h4>
-                      </div>
-                      <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
-                        <li>Customer Value</li>
-                      </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="service-t-single-wrapper">
-                    <div className="service-t__slider-single">
-                      <div className="intro">
-                        <span className="sub-title">
-                          02
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </span>
-                        <h4>
-                          <Link href="service-single">UX Design</Link>
-                        </h4>
-                      </div>
-                      <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
-                        <li>Information Architecture</li>
-                      </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="service-t-single-wrapper">
-                    <div className="service-t__slider-single">
-                      <div className="intro">
-                        <span className="sub-title">
-                          03
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </span>
-                        <h4>
-                          <Link href="service-single">UI Design</Link>
-                        </h4>
-                      </div>
-                      <ul>
-                        <li>Hi-Fidelity Wireframe</li>
-                        <li>Design System</li>
-                        <li>Final Presentation</li>
-                        <li>Final Delivery</li>
-                        <li>Post Delivery Support</li>
-                      </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="service-t-single-wrapper">
-                    <div className="service-t__slider-single">
-                      <div className="intro">
-                        <span className="sub-title">
-                          04
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </span>
-                        <h4>
-                          <Link href="service-single">Development</Link>
-                        </h4>
-                      </div>
-                      <ul>
-                        <li>Front End</li>
-                        <li>Backend</li>
-                        <li>Mobile App</li>
-                        <li>Post Delivery Support</li>
-                        <li>server development</li>
-                      </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
+                           
                         </Link>
                       </div>
                     </div>

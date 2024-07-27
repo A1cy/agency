@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const UxProcess = () => {
+const DigitalMarketingProcess = () => {
   const [imgTab, setImgTab] = useState(0);
 
   return (
@@ -10,10 +10,12 @@ const UxProcess = () => {
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
               <span className="sub-title">
-                UX Process
+                Digital Marketing Process
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">working UX Process</h2>
+              <h2 className="title title-anim">
+                Our Digital Marketing Workflow
+              </h2>
             </div>
           </div>
         </div>
@@ -28,14 +30,15 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>User Research</h4>
+                    <h4>Discovery & Strategy</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We start by understanding your business, target audience,
+                    and goals. This involves conducting market research,
+                    competitor analysis, and creating a comprehensive digital
+                    marketing strategy tailored to your needs.
                   </p>
                 </div>
                 <button
@@ -51,14 +54,16 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>story board</h4>
+                    <h4>Content Creation</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Our team creates engaging content including blog posts,
+                    social media updates, videos, infographics, and more to
+                    attract and retain your audience. This stage involves
+                    brainstorming, drafting, and refining content to align with
+                    your brand voice.
                   </p>
                 </div>
                 <button
@@ -74,14 +79,16 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>wireframing</h4>
+                    <h4>Social Media Management</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We manage your social media profiles, developing and posting
+                    engaging content, interacting with followers, and growing
+                    your online presence. This includes creating graphics,
+                    videos, and posts, as well as monitoring and responding to
+                    comments and messages.
                   </p>
                 </div>
                 <button
@@ -97,14 +104,16 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Prototyping</h4>
+                    <h4>SEO & PPC</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We optimize your website for search engines through on-page
+                    and off-page SEO, and manage pay-per-click (PPC) advertising
+                    campaigns to drive targeted traffic to your site. This
+                    includes keyword research, link building, and continuous
+                    optimization to improve your search engine rankings and ROI.
                   </p>
                 </div>
                 <button
@@ -120,14 +129,16 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>usability testing</h4>
+                    <h4>Email Marketing</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We create and manage email marketing campaigns to nurture
+                    leads and engage with your audience. This includes designing
+                    email templates, writing compelling copy, segmenting email
+                    lists, and analyzing campaign performance to improve open
+                    and click-through rates.
                   </p>
                 </div>
                 <button
@@ -143,14 +154,16 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>UI Design</h4>
+                    <h4>Analytics & Reporting</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We track and analyze the performance of your digital
+                    marketing campaigns, providing detailed reports on key
+                    metrics such as traffic, engagement, and conversions. This
+                    helps us to continuously refine and improve our strategies
+                    to achieve better results.
                   </p>
                 </div>
                 <button
@@ -166,4 +179,4 @@ const UxProcess = () => {
   );
 };
 
-export default UxProcess;
+export default DigitalMarketingProcess;
