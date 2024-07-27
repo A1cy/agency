@@ -122,13 +122,13 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     </li>
                   </ul>
                 </li>
-
+{/* 
                 <li className="navbar__item nav-fade">
                   <Link href="our-story">Our Story</Link>
                 </li>
                 <li className="navbar__item nav-fade">
                   <Link href="portfolio">Portfolio</Link>
-                </li>
+                </li> */}
                 <li className="navbar__item nav-fade">
                   <Link href="contact-us">Contact Us</Link>
                 </li>

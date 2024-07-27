@@ -9,6 +9,7 @@ import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 
 gsap.registerPlugin(ScrollTrigger);
+
 const Agency = () => {
   useEffect(() => {
     const percentElements = document.querySelectorAll("[data-percent]");
@@ -100,35 +101,24 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                We are digital creative agency in London
+                We are a top digital marketing agency in the Middle East
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                  Our agency is dedicated to helping businesses grow and thrive
+                  in the digital world. We combine creative strategies with the
+                  latest technology to deliver exceptional results for our
+                  clients. Our team of experts specializes in creating tailored
+                  solutions that drive engagement, increase conversions, and
+                  enhance brand visibility.
                 </p>
               </div>
               <div className="skill-wrap">
-                <div className="skill-bar-single d-none">
-                  <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
-                  </div>
-                  <div className="skill-bar-wrapper" data-percent="75%">
-                    <div className="skill-bar">
-                      <div className="skill-bar-percent">
-                        <span className="percent-value"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
+                    <p className="primary-text">Website Design</p>
                   </div>
-                  <div className="skill-bar-wrapper" data-percent="75%">
+                  <div className="skill-bar-wrapper" data-percent="85%">
                     <div className="skill-bar">
                       <div className="skill-bar-percent">
                         <span className="percent-value"></span>
@@ -139,6 +129,18 @@ const Agency = () => {
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
                     <p className="primary-text">Digital Marketing</p>
+                  </div>
+                  <div className="skill-bar-wrapper" data-percent="95%">
+                    <div className="skill-bar">
+                      <div className="skill-bar-percent">
+                        <span className="percent-value"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="skill-bar-single">
+                  <div className="skill-bar-title">
+                    <p className="primary-text">SEO & PPC</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="90%">
                     <div className="skill-bar">
