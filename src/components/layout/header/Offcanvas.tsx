@@ -115,10 +115,10 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen("Services")}`}
                   >
                     <li>
-                      <Link href="our-services">IT</Link>
+                      <Link href="it">IT</Link>
                     </li>
                     <li>
-                      <Link href="our-services">Digital Marketing</Link>
+                      <Link href="digital-marketing">Digital Marketing</Link>
                     </li>
                   </ul>
                 </li>

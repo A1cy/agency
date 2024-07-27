@@ -4,11 +4,11 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/portfolio/one.png";
+import one from "public/images/portfolio/Campaign.jpg";
 import two from "public/images/portfolio/two.png";
-import three from "public/images/portfolio/three.png";
+import three from "public/images/portfolio/SEO.jpg";
 import four from "public/images/portfolio/four.png";
-import five from "public/images/portfolio/five.png";
+import five from "public/images/portfolio/Content.jpg";
 import proj1 from "public/images/projects/it-projects/1.jpg";
 import proj2 from "public/images/projects/it-projects/2.jpg";
 import proj3 from "public/images/projects/it-projects/3.jpg";
@@ -19,7 +19,7 @@ import proj6 from "public/images/projects/it-projects/6.jpg";
 const HomeTwoPortfolio = () => {
   const [activeFilter, setActiveFilter] = useState("*");
 
-  const handleTabClick = (filter: any) => {
+  const handleTabClick = (filter: string) => {
     setActiveFilter(filter);
   };
 
@@ -44,7 +44,7 @@ const HomeTwoPortfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
+                <Link href="#">
                   IT Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -54,7 +54,7 @@ const HomeTwoPortfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
+                <Link href="#">
                   Digital Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -64,7 +64,7 @@ const HomeTwoPortfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
+                <Link href="#">
                   IT Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -74,7 +74,7 @@ const HomeTwoPortfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
+                <Link href="#">
                   Digital Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -84,7 +84,7 @@ const HomeTwoPortfolio = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
+                <Link href="#">
                   IT Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -136,15 +136,15 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single portfolio__single-active topy-tilt fade-top">
-              <Link href="https://www.example.com/social-media-campaign">
+              <Link href="digital-marketing">
                 <Image src={one} alt="Social Media Campaign" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="https://www.example.com/social-media-campaign">
+                <Link href="digital-marketing">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="https://www.example.com/social-media-campaign">
+                  <Link href="digital-marketing">
                     Social Media Campaign
                   </Link>
                 </h4>
@@ -159,15 +159,15 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="https://www.example.com/seo-optimization">
+              <Link href="digital-marketing">
                 <Image src={three} alt="SEO Optimization" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="https://www.example.com/seo-optimization">
+                <Link href="digital-marketing">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="https://www.example.com/seo-optimization">
+                  <Link href="digital-marketing">
                     SEO Optimization
                   </Link>
                 </h4>
@@ -182,15 +182,15 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="https://www.example.com/content-marketing">
+              <Link href="digital-marketing">
                 <Image src={five} alt="Content Marketing" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="https://www.example.com/content-marketing">
+                <Link href="digital-marketing">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="https://www.example.com/content-marketing">
+                  <Link href="digital-marketing">
                     Content Marketing
                   </Link>
                 </h4>

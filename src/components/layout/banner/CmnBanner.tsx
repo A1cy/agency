@@ -43,9 +43,9 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We&apos;re an UK-based top-notch design agency committed to
-                  partnering with good companies and hiring the right people for
-                  the right roles.
+                  We&apos;re a Saudi-based top-notch design agency committed to
+                  partnering with innovative companies and hiring the right
+                  talent for the right roles.
                 </p>
               </div>
             </div>
