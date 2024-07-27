@@ -63,7 +63,7 @@ const ServiceMainit = () => {
                       <div className="cta">
                         <Link href="/service-single">
                           <i className="icon-arrow-top-right"></i>
-                          {/* {/* <span>service details</span> */} */}
+                          
                         </Link>
                       </div>
                     </div>
