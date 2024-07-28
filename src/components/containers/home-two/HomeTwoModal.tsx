@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import modalbg from "public/images/modal-bg.png";
+// import modalbg from "public/images/modal-bg.png";
+import modalbg from "public/images/agency/it.jpg";
 import frame from "public/images/video-frame-two.png";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
@@ -38,13 +39,13 @@ const HomeTwoModal = () => {
     <>
       <div className="video-modal">
         <Image src={modalbg} alt="Image" className="modal-bg" />
-        <button
+        {/* <button
           className="video-frame video-btn"
           onClick={() => setVideoActive(true)}
         >
           <Image src={frame} alt="Image" />
           <i className="fa-sharp fa-solid fa-play"></i>
-        </button>
+        </button> */}
       </div>
       <div
         className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}
