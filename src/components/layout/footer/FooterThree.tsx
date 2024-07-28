@@ -41,7 +41,7 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@a1.com">
+                    <Link href="mailto:info@AlyaNajd.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
                       info@a1xai.com
                     </Link>

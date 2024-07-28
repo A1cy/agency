@@ -58,9 +58,9 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="mailto:info@a1.com">
+                        <Link href="mailto:info@AlyaNajd.com">
                           <i className="fa-sharp fa-solid fa-envelope"></i>
-                          info@a1.com
+                          info@AlyaNajd.com
                         </Link>
                       </li>
                     </ul>

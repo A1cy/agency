@@ -26,7 +26,7 @@ const OurMission = () => {
                   <div className="text-center text-lg-start">
                     <p>
                       Assembling the team of talented people to enhance your
-                      experience of IT solutions at a1.
+                      experience of IT solutions at AN.
                     </p>
                   </div>
                 </div>
