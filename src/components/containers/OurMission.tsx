@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import one from "public/images/mission/one.png";
-import two from "public/images/mission/two.png";
+// import one from "public/images/mission/one.png";
+import one from "public/images/mission/quality.jpg";
+// import two from "public/images/mission/two.png";
+import two from "public/images/mission/money.jpg";
 
 const OurMission = () => {
   return (
