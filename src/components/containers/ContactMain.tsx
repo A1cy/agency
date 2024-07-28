@@ -153,7 +153,7 @@ const ContactMain = () => {
                           name="contact-message"
                           id="contactMessage"
                           placeholder="Message"
-                          rows="5"
+                       
                           required
                         ></textarea>
                       </div>
