@@ -17,12 +17,11 @@ const ContactMain = () => {
                 <Image src={phone} alt="Image" />
               </div>
               <div className="content">
-                <h4>Phone & Fax</h4>
+                <h4>Phone </h4>
                 <p>
-                  <Link href="tel:197-90-56-780">Mobile : +197-90-56-780</Link>
-                </p>
-                <p>
-                  <Link href="tel:197-90-56-780">Fax : +44-208-1234567</Link>
+                  <Link href="tel:966-556-096-364">
+                    Mobile : +966-556-096-364
+                  </Link>
                 </p>
               </div>
             </div>
@@ -35,14 +34,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Mail Address</h4>
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@gmail.com
-                  </Link>
-                </p>
-                <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@yahoo.com
-                  </Link>
+                  <Link href="mailto:Info@alyanajd.com">Info@alyanajd.com</Link>
                 </p>
               </div>
             </div>
@@ -56,10 +48,11 @@ const ContactMain = () => {
                 <h4>Our Location</h4>
                 <p>
                   <Link
-                    href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                    href="https://www.google.com/maps/dir/+/24.725722,46.6426537/@24.7257787,46.6014329,13z/data=!3m1!4b1?entry=ttu"
                     target="_blank"
                   >
-                    85 Ketch Harbour RoadBensalem, PA 19020
+                    Prince Turki Ibn Abdulaziz Al Awwal Rd, King Saud
+                    University, Riyadh 12371
                   </Link>
                 </p>
               </div>
@@ -85,7 +78,7 @@ const ContactMain = () => {
                 <div className="col-12 col-lg-6">
                   <div className="contact__map fade-top">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20342.411046372905!2d-74.16638039276373!3d40.719832743885284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1649562691355!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.0195893463424!2d46.64194627777598!3d24.726207736006845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1d0054c9eb4d%3A0x8794dabb3b928767!2sLiberica%20Horeca%20Co.!5e0!3m2!1sen!2ssa!4v1722147161988!5m2!1sen!2ssa"
                       width="100"
                       height="800"
                       style={{ border: "0px" }}
@@ -104,37 +97,64 @@ const ContactMain = () => {
                       className="section__content-cta"
                     >
                       <div className="group-wrapper">
-                        <div className="group-input ">
+                        <div className="group-input">
                           <input
                             type="text"
                             name="contact-name"
                             id="contactName"
                             placeholder="Name"
+                            required
                           />
                         </div>
-                        <div className="group-input ">
+                        <div className="group-input">
                           <input
                             type="email"
                             name="contact-email"
                             id="contactEmail"
                             placeholder="Email"
+                            required
                           />
                         </div>
                       </div>
                       <div className="group-input drt">
-                        <select className="subject">
-                          <option data-display="Subject">Subject</option>
-                          <option value="1">Account</option>
-                          <option value="2">Service</option>
-                          <option value="3">Pricing</option>
-                          <option value="4">Support</option>
+                        <select
+                          className="subject"
+                          name="contact-subject"
+                          required
+                        >
+                          <option value="" disabled selected>
+                            Subject
+                          </option>
+                          <option value="General Inquiry">
+                            General Inquiry
+                          </option>
+                          <option value="Account Setup">Account Setup</option>
+                          <option value="Service Information">
+                            Service Information
+                          </option>
+                          <option value="Pricing Details">
+                            Pricing Details
+                          </option>
+                          <option value="Technical Support">
+                            Technical Support
+                          </option>
+                          <option value="Consultation Request">
+                            Consultation Request
+                          </option>
+                          <option value="Partnership Opportunity">
+                            Partnership Opportunity
+                          </option>
+                          <option value="Feedback">Feedback</option>
+                          <option value="Other">Other</option>
                         </select>
                       </div>
-                      <div className="group-input ">
+                      <div className="group-input">
                         <textarea
                           name="contact-message"
                           id="contactMessage"
                           placeholder="Message"
+                          rows="5"
+                          required
                         ></textarea>
                       </div>
                       <div className="form-cta justify-content-start">

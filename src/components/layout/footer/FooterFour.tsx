@@ -84,11 +84,8 @@ const FooterFour = () => {
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p>
                         Copyright &copy;{" "}
-                        <span id="copyYear">{currentYear}</span> a1 by{" "}
-                        <Link
-                          href="https://themeforest.net/user/A1"
-                          target="_blank"
-                        >
+                        <span id="copyYear">{currentYear}</span> By{" "}
+                        <Link href="https://www.a1xai.com/" target="_blank">
                           A1{" "}
                         </Link>
                         . All Rights Reserved

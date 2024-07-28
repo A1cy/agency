@@ -171,7 +171,7 @@ const FooterTwo = () => {
               </div>
               <div className="footer__single-meta section__content-cta">
                 <Link
-                  href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                  href="https://www.google.com/maps/dir/%20/24.7257219778644,46.642653679921"
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
@@ -197,8 +197,8 @@ const FooterTwo = () => {
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> a1 by{" "}
-                  <Link href="https://themeforest.net/user/A1" target="_blank">
+                  <span id="copyYear">{currentYear}</span> By{" "}
+                  <Link href="https://www.a1xai.com/" target="_blank">
                     {" "}
                     A1
                   </Link>{" "}
