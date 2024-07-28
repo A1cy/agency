@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
-import videobg from "public/images/banner/video-bg.png";
+import videobg from "public/images/a1.png";
 import dotlarge from "public/images/agency/dot-large.png";
 import arrow from "public/images/banner/arrow.png";
 
@@ -57,7 +57,7 @@ const HomeThreeBanner = () => {
                             <span className="arrow"></span>
                           </div>
                           <Link
-                            href="/our-services"
+                            href="/it"
                             className="btn btn--secondary"
                           >
                             Our Services
@@ -90,7 +90,7 @@ const HomeThreeBanner = () => {
                             <span className="arrow"></span>
                           </div>
                           <Link
-                            href="/our-services"
+                            href="/digital-marketing"
                             className="btn btn--secondary"
                           >
                             Our Services
@@ -123,7 +123,7 @@ const HomeThreeBanner = () => {
                             <span className="arrow"></span>
                           </div>
                           <Link
-                            href="/our-services"
+                            href="/it"
                             className="btn btn--secondary"
                           >
                             Our Services
@@ -205,7 +205,7 @@ const HomeThreeBanner = () => {
             <Image src={videobg} alt="Image" />
             <button
               className="video-frame video-btn"
-              onClick={() => setVideoActive(true)}
+              onClick={() => setVideoActive(false)}
             >
               <i className="fa-sharp fa-solid fa-play"></i>
             </button>

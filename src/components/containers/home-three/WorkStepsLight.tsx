@@ -83,7 +83,8 @@ const WorkStepsLight = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage:
+                      "url('https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                   }}
                 ></div>
               </div>
@@ -104,7 +105,8 @@ const WorkStepsLight = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage:
+                      "url('https://images.unsplash.com/photo-1506784881475-0e408bbca849?q=80&w=2992&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                   }}
                 ></div>
               </div>
@@ -125,7 +127,8 @@ const WorkStepsLight = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage:
+                      "url('https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                   }}
                 ></div>
               </div>
@@ -146,7 +149,8 @@ const WorkStepsLight = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage:
+                      "url('https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?q=80&w=3428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                   }}
                 ></div>
               </div>
@@ -155,7 +159,7 @@ const WorkStepsLight = () => {
         </div>
         <button
           className="video-frame video-btn d-none d-md-flex"
-          onClick={() => setVideoActive(true)}
+          onClick={() => setVideoActive(false)}
         >
           <Image src={videoframe} alt="Image" />
           <i className="fa-sharp fa-solid fa-play"></i>

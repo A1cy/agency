@@ -180,7 +180,7 @@ const Layout = ({
           type="image/x-icon"
         />
         <title>A1 | Towards Success Together Digitally</title>
-        <meta name="keywords" content="creative, agency, portfolio" />
+        <meta name="keywords" content="creative, agency, IT, Digital Marketing" />
         <meta name="description" content="Towards Success Together Digitally" />
       </Head>
       <div className={combinedClassName}>

@@ -27,7 +27,7 @@ const HomeThree = () => {
       {/* <HomeThreePortfolio /> */}
       <WorkStepsLight />
       <HomeTestimonialThree />
-      <HomeThreeSponsor />
+      {/* <HomeThreeSponsor /> */}
       {/* <HomeThreeBlogLight /> */}
       <CtaThree />
       <NextPageLight />

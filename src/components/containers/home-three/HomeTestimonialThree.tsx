@@ -37,7 +37,7 @@ const HomeTestimonialThree = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="javascript:void(0)">
                   Client&apos;s Testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -47,7 +47,7 @@ const HomeTestimonialThree = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="javascript:void(0)">
                   Client&apos;s Testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>

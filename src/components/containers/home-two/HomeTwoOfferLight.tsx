@@ -69,7 +69,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Website Design</Link>
+                  <Link href="it">Website Design</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -85,7 +85,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">E-commerce Development</Link>
+                  <Link href="it">E-commerce Development</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -101,7 +101,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Custom Web Applications</Link>
+                  <Link href="it">Custom Web Applications</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -117,7 +117,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">CMS Integration</Link>
+                  <Link href="it">CMS Integration</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -133,7 +133,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Technical Support</Link>
+                  <Link href="it">Technical Support</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -149,7 +149,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">System Maintenance</Link>
+                  <Link href="it">System Maintenance</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -165,7 +165,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Network Security</Link>
+                  <Link href="it">Network Security</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -181,7 +181,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Disaster Recovery</Link>
+                  <Link href="it">Disaster Recovery</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -197,7 +197,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Cloud Hosting</Link>
+                  <Link href="it">Cloud Hosting</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -213,7 +213,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Data Backup</Link>
+                  <Link href="it">Data Backup</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -247,7 +247,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Cloud Migration</Link>
+                  <Link href="it">Cloud Migration</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -263,7 +263,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Cloud Management</Link>
+                  <Link href="it">Cloud Management</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -279,7 +279,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Custom Software</Link>
+                  <Link href="it">Custom Software</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -295,7 +295,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Software Integration</Link>
+                  <Link href="it">Software Integration</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -311,7 +311,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Software Testing</Link>
+                  <Link href="it">Software Testing</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -327,7 +327,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">API Development</Link>
+                  <Link href="it">API Development</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -343,7 +343,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Technology Strategy</Link>
+                  <Link href="it">Technology Strategy</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -359,7 +359,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">System Analysis</Link>
+                  <Link href="it">System Analysis</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -375,7 +375,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Project Management</Link>
+                  <Link href="it">Project Management</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
@@ -391,7 +391,7 @@ const HomeTwoOfferLight = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">Compliance Consulting</Link>
+                  <Link href="it">Compliance Consulting</Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={ball} alt="Image" />
