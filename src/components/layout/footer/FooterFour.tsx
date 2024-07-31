@@ -85,8 +85,8 @@ const FooterFour = () => {
                       <p>
                         Copyright &copy;{" "}
                         <span id="copyYear">{currentYear}</span> By{" "}
-                        <Link href="https://www.a1xai.com/" target="_blank">
-                          A1{" "}
+                        <Link href="/" target="_blank">
+                          AN{" "}
                         </Link>
                         . All Rights Reserved
                       </p>

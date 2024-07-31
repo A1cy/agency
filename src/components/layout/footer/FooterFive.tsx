@@ -198,7 +198,7 @@ const FooterFive = () => {
                 <p>
                   Copyright &copy;
                   <span id="copyYear">{currentYear}</span> By{" "}
-                  <Link href="https://www.a1xai.com/" target="_blank">
+                  <Link href="/" target="_blank">
                     {" "}
                     A1
                   </Link>{" "}
