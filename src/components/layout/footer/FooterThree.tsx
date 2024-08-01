@@ -41,6 +41,12 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link href="tel:966554878434">
+                      <i className="fa-sharp fa-solid fa-phone-volume"></i>
+                      (966) 55 487 8434
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="mailto:info@AlyaNajd.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
                       info@AlyaNajd.com

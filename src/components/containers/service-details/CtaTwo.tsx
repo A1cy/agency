@@ -21,6 +21,11 @@ const CtaTwo = () => {
                         Call: +966 5560 96364
                       </Link>
                     </h5>
+                    <h5>
+                      <Link href="tel:966554878434">
+                        Call: +966 55 487 8434
+                      </Link>
+                    </h5>
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
