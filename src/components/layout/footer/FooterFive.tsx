@@ -200,7 +200,7 @@ const FooterFive = () => {
                   <span id="copyYear">{currentYear}</span> By{" "}
                   <Link href="/" target="_blank">
                     {" "}
-                    A1
+                    AN
                   </Link>{" "}
                   . All Rights Reserved
                 </p>

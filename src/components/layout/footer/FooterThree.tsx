@@ -43,7 +43,7 @@ const FooterThree = () => {
                   <li>
                     <Link href="mailto:info@AlyaNajd.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@a1xai.com
+                      info@AlyaNajd.com
                     </Link>
                   </li>
                 </ul>
@@ -94,7 +94,7 @@ const FooterThree = () => {
                         Copyright &copy;
                         <span id="copyYear">{currentYear}</span> By{" "}
                         <Link href="/" target="_blank">
-                          A1
+                          AN
                         </Link>{" "}
                         . All Rights Reserved
                       </p>

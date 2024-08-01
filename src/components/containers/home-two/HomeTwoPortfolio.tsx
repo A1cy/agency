@@ -9,12 +9,12 @@ import two from "public/images/portfolio/two.png";
 import three from "public/images/portfolio/SEO.jpg";
 import four from "public/images/portfolio/four.png";
 import five from "public/images/portfolio/Content.jpg";
-import proj1 from "public/images/projects/it-projects/1.jpg";
-import proj2 from "public/images/projects/it-projects/2.jpg";
-import proj3 from "public/images/projects/it-projects/3.jpg";
+import proj1 from "public/images/projects/it-projects/hatch.jpg";
+import proj2 from "public/images/projects/it-projects/bstn.jpg";
+import proj3 from "public/images/projects/it-projects/illus.jpg";
 import proj4 from "public/images/projects/it-projects/4.jpg";
 import proj5 from "public/images/projects/it-projects/5.jpg";
-import proj6 from "public/images/projects/it-projects/6.jpg";
+import proj6 from "public/images/projects/it-projects/sani.jpg";
 
 const HomeTwoPortfolio = () => {
   const [activeFilter, setActiveFilter] = useState("*");
@@ -207,16 +207,16 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="https://ai.mhg-int.com">
-                <Image src={proj1} alt="Advanced AI Application" />
+              <Link href="https://hatch.com.sa/">
+                <Image src={proj1} alt="HATCH Application" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="https://ai.mhg-int.com">
+                <Link href="https://hatch.com.sa/">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="https://ai.mhg-int.com">
-                    Advanced AI Application
+                  <Link href="https://hatch.com.sa/">
+                   HATCH Application
                   </Link>
                 </h4>
               </div>
@@ -272,16 +272,16 @@ const HomeTwoPortfolio = () => {
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
-              <Link href="https://cc-f.vercel.app">
-                <Image src={proj4} alt="Customer Care Evaluation" />
+              <Link href="https://edu.mhg-int.com/">
+                <Image src={proj4} alt="LMS | Academy" />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="https://cc-f.vercel.app">
+                <Link href="https://edu.mhg-int.com/">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="https://cc-f.vercel.app">
-                    Customer Care Evaluation
+                  <Link href="https://edu.mhg-int.com/">
+                    LMS | Academy
                   </Link>
                 </h4>
               </div>

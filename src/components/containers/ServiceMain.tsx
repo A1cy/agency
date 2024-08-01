@@ -56,7 +56,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">
+                          <Link href="javascript:void(0)">
                             Social Media Management
                           </Link>
                         </h4>
@@ -68,7 +68,7 @@ const ServiceMain = () => {
                         <li>Analytics & Reporting</li>
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                            
                         </Link>
@@ -85,7 +85,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">
+                          <Link href="javascript:void(0)">
                             Search Engine Optimization (SEO)
                           </Link>
                         </h4>
@@ -97,7 +97,7 @@ const ServiceMain = () => {
                         <li>SEO Audits</li>
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                            
                         </Link>
@@ -114,7 +114,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">
+                          <Link href="javascript:void(0)">
                             Pay-Per-Click (PPC) Advertising
                           </Link>
                         </h4>
@@ -126,7 +126,7 @@ const ServiceMain = () => {
                         <li>Campaign Optimization</li>
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                            
                         </Link>
@@ -143,7 +143,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Content Marketing</Link>
+                          <Link href="javascript:void(0)">Content Marketing</Link>
                         </h4>
                       </div>
                       <ul>
@@ -153,7 +153,7 @@ const ServiceMain = () => {
                         <li>Video Marketing</li>
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                            
                         </Link>

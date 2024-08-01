@@ -50,7 +50,7 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">Website Design</Link>
+                          <Link href="javascript:void(0)">Website Design</Link>
                         </h4>
                       </div>
                       <ul>
@@ -61,9 +61,8 @@ const ServiceMainit = () => {
                         <li>Brand integration</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
-                          
                         </Link>
                       </div>
                     </div>
@@ -78,7 +77,7 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">
+                          <Link href="javascript:void(0)">
                             E-commerce Development
                           </Link>
                         </h4>
@@ -91,7 +90,7 @@ const ServiceMainit = () => {
                         <li>Security enhancements</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                           {/* <span>service details</span> */}
                         </Link>
@@ -108,7 +107,7 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">
+                          <Link href="javascript:void(0)">
                             Custom Web Applications
                           </Link>
                         </h4>
@@ -121,7 +120,7 @@ const ServiceMainit = () => {
                         <li>Maintenance & support</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                           {/* <span>service details</span> */}
                         </Link>
@@ -138,7 +137,7 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">CMS Integration</Link>
+                          <Link href="javascript:void(0)">CMS Integration</Link>
                         </h4>
                       </div>
                       <ul>
@@ -149,7 +148,7 @@ const ServiceMainit = () => {
                         <li>Custom plugin development</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                           {/* <span>service details</span> */}
                         </Link>
@@ -166,7 +165,9 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">Technical Support</Link>
+                          <Link href="javascript:void(0)">
+                            Technical Support
+                          </Link>
                         </h4>
                       </div>
                       <ul>
@@ -177,7 +178,7 @@ const ServiceMainit = () => {
                         <li>Troubleshooting</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                           {/* <span>service details</span> */}
                         </Link>
@@ -194,7 +195,9 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">System Maintenance</Link>
+                          <Link href="javascript:void(0)">
+                            System Maintenance
+                          </Link>
                         </h4>
                       </div>
                       <ul>
@@ -205,7 +208,7 @@ const ServiceMainit = () => {
                         <li>System optimization</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                           {/* <span>service details</span> */}
                         </Link>
@@ -222,7 +225,9 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">Network Security</Link>
+                          <Link href="javascript:void(0)">
+                            Network Security
+                          </Link>
                         </h4>
                       </div>
                       <ul>
@@ -233,7 +238,7 @@ const ServiceMainit = () => {
                         <li>Compliance consulting</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                           {/* <span>service details</span> */}
                         </Link>
@@ -250,7 +255,9 @@ const ServiceMainit = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="/service-single">Disaster Recovery</Link>
+                          <Link href="javascript:void(0)">
+                            Disaster Recovery
+                          </Link>
                         </h4>
                       </div>
                       <ul>
@@ -261,7 +268,7 @@ const ServiceMainit = () => {
                         <li>Business continuity</li>
                       </ul>
                       <div className="cta">
-                        <Link href="/service-single">
+                        <Link href="javascript:void(0)">
                           <i className="icon-arrow-top-right"></i>
                           {/* <span>service details</span> */}
                         </Link>
